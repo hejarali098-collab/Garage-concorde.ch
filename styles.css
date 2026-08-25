@@ -13,3 +13,8 @@ header{position:sticky;top:0;z-index:20;background:rgba(9,9,9,.96);backdrop-filt
 footer{background:#050505;border-top:1px solid #242424;padding:38px 0 22px;color:#bdbdbd}.footer-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:28px}.footer-grid h4{color:#fff;margin-top:0}.footer-bottom{border-top:1px solid #222;margin-top:24px;padding-top:16px;font-size:.9rem}.float-wa{position:fixed;right:18px;bottom:18px;z-index:30;background:var(--green);color:#071c0d;border-radius:999px;padding:14px 18px;font-weight:900;box-shadow:0 12px 35px rgba(0,0,0,.4)}
 @media(max-width:900px){.hero .container,.form-wrap,.booking,.review-box,.adbox{grid-template-columns:1fr}.grid3,.team,.contact-strip,.footer-grid{grid-template-columns:1fr 1fr}.hero-card img{height:360px}.nav{align-items:flex-start}.navlinks{justify-content:flex-end}.adbox{background:#ffd400}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}}
 @media(max-width:650px){.topbar .container,.nav{display:block}.brand{margin-bottom:10px}.navlinks{display:grid;grid-template-columns:1fr 1fr}.navlinks a{text-align:center}.hero .container{padding:42px 0}.hero-card img{height:310px}.grid3,.team,.contact-strip,.footer-grid{grid-template-columns:1fr}.person img{height:420px}.section{padding:54px 0}.float-wa{font-size:.9rem;padding:12px 14px}}
+
+.team-five{grid-template-columns:repeat(5,1fr)}
+.team-five .person img{height:360px}
+@media(max-width:1000px){.team-five{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){.team-five{grid-template-columns:1fr}.team-five .person img{height:auto;max-height:560px}}
